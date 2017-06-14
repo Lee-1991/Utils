@@ -15,6 +15,7 @@
 		9B82FAAB1EF1109300F9AE75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B82FAA91EF1109300F9AE75 /* LaunchScreen.storyboard */; };
 		9B82FAB61EF1109400F9AE75 /* UtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82FAB51EF1109400F9AE75 /* UtilsTests.m */; };
 		9B82FAC11EF1109400F9AE75 /* UtilsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82FAC01EF1109400F9AE75 /* UtilsUITests.m */; };
+		9B82FAD71EF11CD900F9AE75 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82FAD61EF11CD900F9AE75 /* Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9B82FABC1EF1109400F9AE75 /* UtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B82FAC01EF1109400F9AE75 /* UtilsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilsUITests.m; sourceTree = "<group>"; };
 		9B82FAC21EF1109400F9AE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B82FAD51EF11CD900F9AE75 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		9B82FAD61EF11CD900F9AE75 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				9B82FA9F1EF1109300F9AE75 /* AppDelegate.m */,
 				9B82FAA11EF1109300F9AE75 /* ViewController.h */,
 				9B82FAA21EF1109300F9AE75 /* ViewController.m */,
+				9B82FACE1EF118E200F9AE75 /* Utils */,
 				9B82FAA41EF1109300F9AE75 /* Main.storyboard */,
 				9B82FAA71EF1109300F9AE75 /* Assets.xcassets */,
 				9B82FAA91EF1109300F9AE75 /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				9B82FAC21EF1109400F9AE75 /* Info.plist */,
 			);
 			path = UtilsUITests;
+			sourceTree = "<group>";
+		};
+		9B82FACE1EF118E200F9AE75 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9B82FAD51EF11CD900F9AE75 /* Utils.h */,
+				9B82FAD61EF11CD900F9AE75 /* Utils.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 				9B82FAA31EF1109300F9AE75 /* ViewController.m in Sources */,
 				9B82FAA01EF1109300F9AE75 /* AppDelegate.m in Sources */,
 				9B82FA9D1EF1109300F9AE75 /* main.m in Sources */,
+				9B82FAD71EF11CD900F9AE75 /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +526,7 @@
 				9B82FAC71EF1109400F9AE75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B82FAC81EF1109400F9AE75 /* Build configuration list for PBXNativeTarget "UtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +535,7 @@
 				9B82FACA1EF1109400F9AE75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B82FACB1EF1109400F9AE75 /* Build configuration list for PBXNativeTarget "UtilsUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +544,7 @@
 				9B82FACD1EF1109400F9AE75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
