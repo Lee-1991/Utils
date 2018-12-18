@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B5B49E721C2510000883311 /* LSAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5B49E621C2510000883311 /* LSAlertViewController.m */; };
+		9B5B49ED21C2606100883311 /* LSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5B49EC21C2606100883311 /* LSHomeViewController.m */; };
 		9B82FA9D1EF1109300F9AE75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82FA9C1EF1109300F9AE75 /* main.m */; };
 		9B82FAA01EF1109300F9AE75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82FA9F1EF1109300F9AE75 /* AppDelegate.m */; };
 		9B82FAA31EF1109300F9AE75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82FAA21EF1109300F9AE75 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B5B49E521C2510000883311 /* LSAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSAlertViewController.h; sourceTree = "<group>"; };
+		9B5B49E621C2510000883311 /* LSAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAlertViewController.m; sourceTree = "<group>"; };
+		9B5B49EB21C2606100883311 /* LSHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSHomeViewController.h; sourceTree = "<group>"; };
+		9B5B49EC21C2606100883311 /* LSHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSHomeViewController.m; sourceTree = "<group>"; };
 		9B82FA981EF1109300F9AE75 /* Utils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Utils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B82FA9C1EF1109300F9AE75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B82FA9E1EF1109300F9AE75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +84,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B5B49E221C250A600883311 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9B5B49E321C250C300883311 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				9B5B49E821C2603100883311 /* Common */,
+				9B5B49E921C2604000883311 /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		9B5B49E421C250D800883311 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9B5B49E521C2510000883311 /* LSAlertViewController.h */,
+				9B5B49E621C2510000883311 /* LSAlertViewController.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		9B5B49E821C2603100883311 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9B5B49E921C2604000883311 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9B5B49EA21C2604C00883311 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9B5B49EA21C2604C00883311 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B5B49EB21C2606100883311 /* LSHomeViewController.h */,
+				9B5B49EC21C2606100883311 /* LSHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		9B82FA8F1EF1109300F9AE75 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +158,9 @@
 			children = (
 				9B82FA9E1EF1109300F9AE75 /* AppDelegate.h */,
 				9B82FA9F1EF1109300F9AE75 /* AppDelegate.m */,
+				9B5B49E421C250D800883311 /* Tools */,
+				9B5B49E321C250C300883311 /* Module */,
+				9B5B49E221C250A600883311 /* Utils */,
 				9B82FAA11EF1109300F9AE75 /* ViewController.h */,
 				9B82FAA21EF1109300F9AE75 /* ViewController.m */,
 				9B82FAA41EF1109300F9AE75 /* Main.storyboard */,
@@ -202,8 +260,9 @@
 		9B82FA901EF1109300F9AE75 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LS;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = lee;
+				ORGANIZATIONNAME = "辛未年";
 				TargetAttributes = {
 					9B82FA971EF1109300F9AE75 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -274,6 +333,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5B49E721C2510000883311 /* LSAlertViewController.m in Sources */,
+				9B5B49ED21C2606100883311 /* LSHomeViewController.m in Sources */,
 				9B82FAA31EF1109300F9AE75 /* ViewController.m in Sources */,
 				9B82FAA01EF1109300F9AE75 /* AppDelegate.m in Sources */,
 				9B82FA9D1EF1109300F9AE75 /* main.m in Sources */,
@@ -512,6 +573,7 @@
 				9B82FAC71EF1109400F9AE75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B82FAC81EF1109400F9AE75 /* Build configuration list for PBXNativeTarget "UtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +582,7 @@
 				9B82FACA1EF1109400F9AE75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B82FACB1EF1109400F9AE75 /* Build configuration list for PBXNativeTarget "UtilsUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +591,7 @@
 				9B82FACD1EF1109400F9AE75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
