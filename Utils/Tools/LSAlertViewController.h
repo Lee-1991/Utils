@@ -29,7 +29,7 @@ typedef NS_ENUM(NSInteger, LSAlertActionStyle) {
 
 @interface LSAlertViewController : UIViewController
 
-@property (nonatomic, copy) NSString* title;
+@property (nonatomic, copy) NSString* alertTitle;
 
 + (instancetype)alertWithTitle:(nullable NSString *)title;
 
