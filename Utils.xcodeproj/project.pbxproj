@@ -17,6 +17,8 @@
 		9B82FAAB1EF1109300F9AE75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B82FAA91EF1109300F9AE75 /* LaunchScreen.storyboard */; };
 		9B82FAB61EF1109400F9AE75 /* UtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82FAB51EF1109400F9AE75 /* UtilsTests.m */; };
 		9B82FAC11EF1109400F9AE75 /* UtilsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82FAC01EF1109400F9AE75 /* UtilsUITests.m */; };
+		9BB55931227726570032CA7F /* LSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB55930227726570032CA7F /* LSUtils.m */; };
+		9BB5593422772CDD0032CA7F /* LSUtils+Authorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5593322772CDD0032CA7F /* LSUtils+Authorization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		9B82FABC1EF1109400F9AE75 /* UtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B82FAC01EF1109400F9AE75 /* UtilsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilsUITests.m; sourceTree = "<group>"; };
 		9B82FAC21EF1109400F9AE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB5592F227726570032CA7F /* LSUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSUtils.h; sourceTree = "<group>"; };
+		9BB55930227726570032CA7F /* LSUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSUtils.m; sourceTree = "<group>"; };
+		9BB5593222772CDD0032CA7F /* LSUtils+Authorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSUtils+Authorization.h"; sourceTree = "<group>"; };
+		9BB5593322772CDD0032CA7F /* LSUtils+Authorization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LSUtils+Authorization.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 		9B5B49E221C250A600883311 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				9BB5592F227726570032CA7F /* LSUtils.h */,
+				9BB55930227726570032CA7F /* LSUtils.m */,
+				9BB5593222772CDD0032CA7F /* LSUtils+Authorization.h */,
+				9BB5593322772CDD0032CA7F /* LSUtils+Authorization.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -286,6 +296,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -333,8 +344,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BB55931227726570032CA7F /* LSUtils.m in Sources */,
 				9B5B49E721C2510000883311 /* LSAlertViewController.m in Sources */,
 				9B5B49ED21C2606100883311 /* LSHomeViewController.m in Sources */,
+				9BB5593422772CDD0032CA7F /* LSUtils+Authorization.m in Sources */,
 				9B82FAA31EF1109300F9AE75 /* ViewController.m in Sources */,
 				9B82FAA01EF1109300F9AE75 /* AppDelegate.m in Sources */,
 				9B82FA9D1EF1109300F9AE75 /* main.m in Sources */,
